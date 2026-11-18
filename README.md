@@ -66,7 +66,7 @@
 
 LotsDirectory is a platform that aggregates weekly product launches and new products, providing a searchable launch board powered by AI. It helps creators submit their launches, get discovered across 186 verified directories, and offers tools for SEO and visibility. The service aims to centralize product announcements, making it easier for audiences to find emerging tools and services in one place.
 
-**Areas:** Directories · Product Launch · SEO · SaaS
+**Areas:** Directories · Product Launch · SEO · SaaS · Launches
 
 ## LotsDirectory on APIs.io
 
@@ -75,7 +75,7 @@ Everything profiled for LotsDirectory is published on APIs.io rather than in thi
 ### APIs (2)
 
 - [Lots Directory API](https://apis.io/apis/lots-directory/lots-directory-api-2/) — REST API for LOTS applications as documented in the developer portal.
-- [LotsDirectory API](https://apis.io/apis/lots-directory/lots-directory-api/) — LotsDirectory API as documented publicly: 29 operations. Contract generated from the documentation by API Evangelist (2026-11-17); not the provider's own…
+- [LotsDirectory Lotsdirectory API](https://apis.io/apis/lots-directory/lots-directory-lotsdirectory-api/) — The Lotsdirectory API from LotsDirectory — 27 operation(s) for lotsdirectory.
 
 ### Published properties
 
@@ -98,16 +98,23 @@ Linked-data contexts for the provider's vocabulary.
 
 - [Lots Directory Context](https://apis.io/jsonld/lots-directory/lots-directory-context/)
 
+#### Overlays (1)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [LotsDirectory Openapi Overlay](https://apis.io/overlays/lots-directory/lots-directory-openapi-overlay/)
+
 #### Governance rules (1)
 
 Spectral rulesets for the provider's contracts.
 
 - [LotsDirectory API Rules](https://apis.io/rules/lots-directory/lots-directory-rules/)
 
-#### Security (2)
+#### Security (3)
 
 Authentication, trust centre, and vulnerability disclosure.
 
+- [LotsDirectory Authentication](https://apis.io/security/lots-directory/lots-directory-authentication/)
 - [LotsDirectory Domain Security](https://apis.io/security/lots-directory/lots-directory-domain-security/)
 - [LotsDirectory Vulnerability Disclosure](https://apis.io/security/lots-directory/lots-directory-vulnerability-disclosure/)
 
@@ -130,18 +137,18 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 44.3** — developing · rubric 0.27.0 · scored 2026-11-17
+**Kin Score 34.7** — thin · rubric 0.27.0 · scored 2026-11-18
 
 | Facet | Score |
 |---|---|
-| Discoverability | 55.4 |
-| Contract quality | 53.4 |
-| Contract governance | 79.1 |
+| Discoverability | 71.7 |
+| Contract quality | 24.7 |
+| Contract governance | 22.0 |
 | Operational transparency | 26.3 |
-| Developer ergonomics | 14.3 |
-| Access clarity | 42.6 |
+| Developer ergonomics | 26.2 |
+| Access clarity | 44.7 |
 
-**Agent readiness 36.1** — agent-ready
+**Agent readiness 33.9** — agent-ready
 
 | Agent-readiness dimension | Result |
 |---|---|
